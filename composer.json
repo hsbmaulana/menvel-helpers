@@ -1,0 +1,32 @@
+{
+    "name": "hsbmaulana/menvel-helpers",
+    "version": "1.0.0",
+    "description": "Lumen-Laravel (Helpers)",
+
+    "authors": [{ "name": "Hasby Maulana", "email": "hsbmaulana.iso@gmail.com" }],
+
+    "require": {
+
+        "php": "^8.0"
+    },
+
+    "require-dev": {},
+
+    "suggest": {
+
+        "laravel/lumen-framework": "Required when using lumen framework (^8.0).",
+        "laravel/framework": "Required when using laravel framework (^8.0)."
+    },
+
+    "autoload": {
+
+        "files": [
+
+            "src/Helpers/Sortable.php",
+            "src/Helpers/Searchable.php",
+            "src/Helpers/Paginateable.php"
+        ]
+    },
+
+    "autoload-dev": {}
+}
